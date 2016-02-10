@@ -5,12 +5,12 @@ body{
 
 header{
 	position: fixed;
-	background-color: white;
+	
 	width: 100%;
 	height: 50px;
 }
 
-/*#list-left li {
+#list-left li {
 	display: inline;
 	margin: 0;
 	padding: 0;
@@ -20,15 +20,31 @@ header{
 #list-right li {
 	display: inline;
 	float: right;
-	margin-right: 10px;
 }
 
+#list-left a,
 #list-right a {
 	text-decoration: none;
-	
-	color: red;
+	font-family: 'Montserrat', sans-serif;
+  background-color: none;
+  color: yellow;
+  padding: 12px;
+  border-top: 1px solid none;
+  border-right: 1px solid none;
+  border-bottom: 1px solid none;
+  border-left: 1px solid none;
 }
-*/
+
+
+#list-right a:hover,
+#list-left a:hover {
+	background-color: rgba(1000, 300, 300, 0.1);
+}
+
+#list-right li:nth-child(1) a {
+	margin-right: 50px;
+}
+
 
 #one{
 	height: 1050px;
