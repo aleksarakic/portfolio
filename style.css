@@ -1,5 +1,5 @@
 body{
-  padding: 0;
+  padding: 0 ;
   margin: 0;
 }
 
@@ -45,6 +45,35 @@ header{
 	margin-right: 50px;
 }
 
+.main-heading {
+	margin-top: 0 !important;
+	padding-top: 150px;
+	color: white;
+}
+
+.small-heading {
+	color: white;
+}
+
+hr {
+	width: 50%;
+}
+
+.about-paragraph {
+	font-weight: bold;
+	color: red;
+	padding-bottom: 50px;
+}
+
+.about-span {
+	color: white;
+	font-weight: bold;
+}
+
+.rules-and-stories {
+	padding-left: 50px;
+	color: white;
+}
 
 #one{
 	height: 1050px;
@@ -61,13 +90,6 @@ header{
 }
 
 #three{
-	height: 1000px;
-	background-image: url('pictures/three.jpg');
-	background-attachment: fixed;
-	background-size: cover;
-}
-
-#four{
 	height: 1000px;
 	background-image: url('pictures/four.jpg');
 	background-attachment: fixed;
