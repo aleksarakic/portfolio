@@ -27,7 +27,7 @@ header{
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
   background-color: none;
-  color: yellow;
+  color: white;
   padding: 12px;
   border-top: 1px solid none;
   border-right: 1px solid none;
@@ -38,7 +38,7 @@ header{
 
 #list-right a:hover,
 #list-left a:hover {
-	background-color: rgba(1000, 300, 300, 0.1);
+	background-color: rgba(1000, 300, 300, 0.2);
 }
 
 #list-right li:nth-child(1) a {
@@ -49,6 +49,13 @@ header{
 	margin-top: 0 !important;
 	padding-top: 150px;
 	color: white;
+}
+
+.portfolio-heading,
+.about-heading {
+	padding-top: 50px;
+	color: white;
+	margin-top: 0 !important;	
 }
 
 .small-heading {
@@ -62,7 +69,7 @@ hr {
 .about-paragraph {
 	font-weight: bold;
 	color: red;
-	padding-bottom: 50px;
+	padding-bottom: 60px;
 }
 
 .about-span {
@@ -72,6 +79,83 @@ hr {
 
 .rules-and-stories {
 	padding-left: 50px;
+	color: white;
+}
+
+
+
+.portfolio-paragraph {
+	color: white;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.item {
+	/*background-color: rgba(1000, 300, 300, 0.1);*/
+	height: 200px;
+	padding: 0 !important;
+}
+
+.description {
+	margin-bottom: 30px;
+	margin-top: 5px;
+}
+
+.span-desc {
+	color: white;
+	
+}
+
+.first {
+	margin-right: 30px;
+	margin-left: 260px;
+}
+
+.third {
+	margin-left: 30px;
+}
+
+#jedan {
+  background-image: url('pictures/weather.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#dva {
+	background-image: url('pictures/quotes.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#tri {
+	background-image: url('pictures/eas.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#cetiri {
+	background-image: url('pictures/tw.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}	
+
+#pet {
+	background-image: url('pictures/a.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+
+.footer {
+	background-color: black;
+}
+
+.fa,
+footer p {
+	padding-bottom: 0;
+	margin: 0;
 	color: white;
 }
 
@@ -90,8 +174,8 @@ hr {
 }
 
 #three{
-	height: 1000px;
-	background-image: url('pictures/four.jpg');
+	height: 1090px;
+	background-image: url('pictures/three.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 }
