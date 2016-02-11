@@ -91,9 +91,13 @@ hr {
 }
 
 .item {
-	/*background-color: rgba(1000, 300, 300, 0.1);*/
 	height: 200px;
 	padding: 0 !important;
+}
+
+.item:hover {
+	background-color: rgba(1000, 300, 300, 0.1);
+	
 }
 
 .description {
