@@ -5,10 +5,10 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<script type="text/javascript" src="script.js"></script>
 </head>
+
 <body>
 	<header>
 		<div>
@@ -18,7 +18,6 @@
 		</div>
 		<div>
 			<ul id="list-right">
-				
 				<li><a href="#portfolio">Portfolio</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#home">Home</a></li>
@@ -26,7 +25,8 @@
 		</div>
 	</header>
 
-	<div id="one">
+
+	<div id="home-background">
 		<a name="home"></a>
 		<h1 class="main-heading text-center">Portfolio Zipline</h1>
 		<h4 class="small-heading text-center">FCC FTW</h2>
@@ -34,18 +34,20 @@
 		<div class="btn center-block">
 			<a href="https://twitter.com/akiisuper" class="btn btn-primary" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
 			<a href="https://github.com/aleksarakic" class="btn btn-primary" target="_blank"><i class="fa fa-github-alt"></i> Github</a>
-			<a href="https://www.goodreads.com/user/show/37784332-aleksa-rakic" class="btn btn-primary" target="_blank"><i class="fa fa-book"></i>
- Goodreads</a>
+			<a href="https://www.goodreads.com/user/show/37784332-aleksa-rakic" class="btn btn-primary" target="_blank"><i class="fa fa-book"></i>Goodreads</a>
 			<a href="https://www.strava.com/athletes/12956075" class="btn btn-primary" target="_blank"><i class="fa fa-heart-o"></i> Strava</a>
 		</div>
 	</div>
 
-	<div id="two">
+
+
+	<div id="about-background">
 		<a name="about"></a>
 		<h1 class="text-center about-heading">About</h1>
 		<p class="text-center about-paragraph">Task: reverse-engineer <a href="http://codepen.io/FreeCodeCamp/full/VemmoX/" target="_blank">this site</a>.</p>
+
 		<div class="container">	
-			<div class="row">
+			<div class="row"><!-- 'Portfolio zipline' rules -->
 				<div class="col-sm-7">
 					<p class="rules-and-stories"><span class="about-span">Rule #1:</span> Don't look at the example project's code on CodePen. Figure it out for yourself.</p>
 					<p class="rules-and-stories"><span class="about-span">Rule #2:</span> You may use whichever libraries or APIs you need.</p>
@@ -55,45 +57,48 @@
 					<p class="rules-and-stories"><span class="about-span">User Story:</span> As a user, I can see thumbnail images of different projects the portfolio creator has built.</p>
 					<p class="rules-and-stories"><span class="about-span">User Story:</span> As a user, I navigate to different sections of the webpage by clicking buttons in the navigation.</p>
 				</div>
-				<div class="col-sm-5 skica">
+
+				<div class="col-sm-5 skica"><!-- lego picture-->
 					<img src="pictures/skica.jpg">
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="three">
+
+
+	<div id="portfolio-background">
 	<a name="portfolio"></a>
 		<h1 class="text-center portfolio-heading">Portfolio</h1>
 		<p class="text-center portfolio-paragraph">Some of my other works</p>
-		
 		<div class="container">
-			<div class="row">
-				<div class="col-md-2 item first" id="jedan"><a class="portfolio-link" href="https://mighty-shelf-4025.herokuapp.com/"></a></div>
-				<div class="col-md-2 item" id="dva"><a class="portfolio-link" href="http://htmlpreview.github.io/?https://github.com/aleksarakic/quotes/blob/master/index.html"></a></div>
-				<div class="col-md-2 item third" id="tri"><a class="portfolio-link" href="http://htmlpreview.github.io/?https://github.com/super-aki/etch-board/blob/master/html.html"></a></div>
+			<div class="row"><!-- first row portfolio pictures-->
+				<div class="col-md-2 item first-in-row" id="first-port-pic"><a class="portfolio-link" href="https://mighty-shelf-4025.herokuapp.com/"></a></div>
+				<div class="col-md-2 item" id="second-port-pic"><a class="portfolio-link" href="http://htmlpreview.github.io/?https://github.com/aleksarakic/quotes/blob/master/index.html"></a></div>
+				<div class="col-md-2 item third-in-row" id="third-port-pic"><a class="portfolio-link" href="http://htmlpreview.github.io/?https://github.com/super-aki/etch-board/blob/master/html.html"></a></div>
 			</div>
-			<div class="row">
-				<div class="col-md-2 first description"><p class="span-desc text-center">Weather app</br>(Sinatra)</p></div>
+			<div class="row"><!-- first row descriptions -->
+				<div class="col-md-2 first-in-row description"><p class="span-desc text-center">Weather app</br>(Sinatra)</p></div>
 				<div class="col-md-2 description"><p class="span-desc text-center">Random quotes</br>(JavaScript)</p></div>
-				<div class="col-md-2 third description"><p class="span-desc text-center">Etch-A-Sketch</br>(jQuery)</p></div>
+				<div class="col-md-2 third-in-row description"><p class="span-desc text-center">Etch-A-Sketch</br>(jQuery)</p></div>
 			</div>
 		</div>
 		
 		<div class="container">
-			<div class="row">
-				<div class="col-md-2 item first" id="cetiri"><a class="portfolio-link" href="https://github.com/aleksarakic/sample_app"></a></div>
-				<div class="col-md-2 item" id="pet"><a class="portfolio-link" href="http://superaki.xyz/"></a></div>
+			<div class="row"><!-- second row portfolio pictures-->
+				<div class="col-md-2 item first-in-row" id="fourth-port-pic"><a class="portfolio-link" href="https://github.com/aleksarakic/sample_app"></a></div>
+				<div class="col-md-2 item" id="fifth-port-pic"><a class="portfolio-link" href="http://superaki.xyz/"></a></div>
 				<!-- <div class="col-md-2 item third" id="sest"></div> -->
 			</div>
 
-			<div class="row">
-				<div class="col-md-2 first description" ><p class="span-desc text-center">Twitter Clone</br>(Rails)</p></div>
+			<div class="row"><!-- second row descriptions-->
+				<div class="col-md-2 first-in-row description" ><p class="span-desc text-center">Twitter Clone</br>(Rails)</p></div>
 				<div class="col-md-2 description"><p class="span-desc text-center">Personal website</br>(Html/CSS/jQuery)</p></div>
-				
 			</div>
 		</div>
 	</div>
+
+
 
 	<footer>
 		<div class="footer text-center">

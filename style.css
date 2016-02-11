@@ -106,12 +106,12 @@ hr {
 	
 }
 
-.first {
+.first-in-row {
 	margin-right: 30px;
 	margin-left: 260px;
 }
 
-.third {
+.third-in-row {
 	margin-left: 30px;
 }
 
@@ -131,31 +131,31 @@ hr {
     white-space:nowrap;
 }
 
-#jedan {
+#first-port-pic {
   background-image: url('pictures/weather.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-#dva {
+#second-port-pic {
 	background-image: url('pictures/quotes.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-#tri {
+#third-port-pic {
 	background-image: url('pictures/eas.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-#cetiri {
+#fourth-port-pic {
 	background-image: url('pictures/tw.png');
   background-repeat: no-repeat;
   background-size: contain;
 }	
 
-#pet {
+#fifth-port-pic {
 	background-image: url('pictures/a.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -173,21 +173,21 @@ footer p {
 	color: white;
 }
 
-#one{
+#home-background{
 	height: 1050px;
 	background-image: url('pictures/one.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 }
 
-#two{
+#about-background{
 	height: 1000px;
 	background-image: url('pictures/two.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 }
 
-#three{
+#portfolio-background{
 	height: 1090px;
 	background-image: url('pictures/three.jpg');
 	background-attachment: fixed;
